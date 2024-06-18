@@ -1,0 +1,28 @@
+version : '3'
+
+services:
+  web:
+    container_name: prueba_web
+    build: .
+    command: python manage.py runserver 0.0.0.0:8080
+    volumes:
+      - .:/app/
+    ports:
+      - 8080:8080
+    depends_on:
+      - db
+  db:
+    container_name: prueba_db
+    image: postgres:16.3
+    ports:
+      - 5432:5432
+    environment:
+     POSTGRES_USER: postgres
+     POSTGRES_DB: prueba
+     POSTGRES_PASSWORD: Casa1795.
+networks:
+  default:
+    name: prueba
+
+
+
