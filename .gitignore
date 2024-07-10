@@ -1,8 +1,10 @@
 db.sqlite3
 
 *.pyc
-prueba/__pycache__/__init__.cpython-310.pyc
-prueba/__pycache__/__init__.cpython-310.pyc
-prueba/__pycache__/settings.cpython-310.pyc
-prueba/__pycache__/urls.cpython-310.pyc
-prueba/__pycache__/wsgi.cpython-310.pyc
+cer3/_pycache/init_.cpython-310.pyc
+cer3/_pycache/init_.cpython-310.pyc
+cer3/_pycache_/settings.cpython-310.pyc
+cer3/_pycache_/urls.cpython-310.pyc
+cer3/_pycache_/wsgi.cpython-310.pyc
+
+/react/node_modules/*
